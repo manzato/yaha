@@ -1,3 +1,3 @@
-#from .main import startup
+from .main import startup
 
-#startup()
+startup()

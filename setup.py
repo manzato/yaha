@@ -11,8 +11,8 @@ setup(name='home',
       setup_requires=['cython'],
       install_requires=[
           'kivy',
-          'mongoengine'
-
+          'mongoengine',
+          'RPi.GPIO'
       ],
       entry_points = {
           'console_scripts': ['home=home_core.command_line:main'],

@@ -10,3 +10,11 @@ $ git clone git@github.com:manzato/yaha.git
 $ cd yaha
 $ sudo -H python setup.py install
 ```
+
+
+## Development install
+
+```
+$ cd $clonedDir
+$ sudo -H pip install -e .
+```
